@@ -45,7 +45,10 @@ int main()
 			}
 			else
 			{	
+				if(lhs[i][0]>='A'&&lhs[i][0]<='Z')
 				printf("Production %d is valid\n",i);
+				else
+				printf("Production %d is not valid\n",i);
 			}
 		}
 	}
