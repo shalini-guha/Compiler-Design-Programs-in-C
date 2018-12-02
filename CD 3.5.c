@@ -28,7 +28,7 @@ int main()
 	}
 	else
 	{
-		if(strcmp(word,"struct") || strcmp(word,"typedef"))
+		if(!strcmp(word,"struct") || !strcmp(word,"typedef"))
 		{
 			while((ch=fgetc(fp))!='{');
 			while((ch2=fgetc(fp)!=EOF)  && (ch2=fgetc(fp)!='}'))
